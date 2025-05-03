@@ -14,7 +14,7 @@ filterwarnings('ignore')
 
 # ----------------- Gemini API Setup --------------------
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-API_KEY = "AIzaSyBic9wv9KVhgehOhbT3ufe4g_kG1laSdbQ"  # 🔒 Replace with your actual key or use os.getenv("GEMINI_API_KEY")
+API_KEY = "API-KEY"  # 🔒 Replace with your actual key or use os.getenv("GEMINI_API_KEY")
 
 # Typewriter Effect Function
 def typewriter_effect(text, delay=0.01):
