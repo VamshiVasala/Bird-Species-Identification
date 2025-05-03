@@ -101,13 +101,3 @@ Each audio file is annotated with the corresponding bird species, forming the fo
    - Following the completion of model training and evaluation, the trained model is saved to enable seamless deployment and inference on new audio for classification purposes. To facilitate this process, a user-friendly Streamlit application is developed and deployed on the Hugging Face platform.
 
    - This application empowers users to upload new audio files and obtain real-time classification results, providing a convenient interface for leveraging the model's capabilities in practical scenarios.
-
-
-
-
-
-# Bird-Species-Identification
-# Bird-Species-Identification
-# Bird-Species-Identification
-# Bird-Species-Identification
-# Bird-Species-Identification
