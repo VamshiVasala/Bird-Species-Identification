@@ -1,0 +1,19 @@
+tensorflow
+scikit-learn
+opencv-python
+librosa
+numpy
+pandas
+matplotlib
+streamlit
+streamlit_extras
+tqdm
+# librosa
+# numpy
+# opencv-python
+diffusers
+transformers
+torch
+requests
+soundfile
+streamlit-extras
