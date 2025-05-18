@@ -13,7 +13,7 @@ import time
 filterwarnings('ignore')
 
 # ----------------- Gemini API Setup --------------------
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBic9wv9KVhgehOhbT3ufe4g_kG1laSdbQ"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 API_KEY = GEMINI_API_URL  # 🔒 Replace with your actual key or use os.getenv("GEMINI_API_KEY")
 
 # Typewriter Effect Function
