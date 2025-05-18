@@ -13,8 +13,8 @@ import time
 filterwarnings('ignore')
 
 # ----------------- Gemini API Setup --------------------
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-API_KEY = "API-KEY"  # 🔒 Replace with your actual key or use os.getenv("GEMINI_API_KEY")
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBic9wv9KVhgehOhbT3ufe4g_kG1laSdbQ"
+API_KEY = GEMINI_API_URL  # 🔒 Replace with your actual key or use os.getenv("GEMINI_API_KEY")
 
 # Typewriter Effect Function
 def typewriter_effect(text, delay=0.01):
@@ -126,7 +126,7 @@ def prediction(audio_file):
                 unsafe_allow_html=True)
 
     # ✅ Load image only from local folder
-    image_folder = 'Inference_Images'
+    image_folder = 'Bird_Images'
     jpg_path = os.path.join(image_folder, f'{predicted_class}.jpg')
     jpeg_path = os.path.join(image_folder, f'{predicted_class}.jpeg')
 
